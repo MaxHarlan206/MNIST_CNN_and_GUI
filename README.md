@@ -7,7 +7,7 @@ I am in the process of making this project to get a strong foundation in convolu
 Features:<br>
 This project currently takes 28x28 px hand drawn images of numbers from the MNIST database of handwritten digits which look like this:
 ![](https://raw.githubusercontent.com/MaxHarlan206/MNIST_CNN_and_GUI/main/Screenshot%202021-01-16%2022%3A00%3A18.png)
-... and uses a convolutional neural net to predict with 99%+ accuracy which digit is pictured in this format.
+<br>... and uses a convolutional neural net to predict with 99%+ accuracy which digit is pictured in this format.
 <br>
 The layers of the network are:
 - Image normalization
@@ -16,7 +16,7 @@ The layers of the network are:
 - A flattening layer 
 - Two dense layers 
 
-Using the best trained model from this cnn, users can draw digits of their choice into a gui which uses primarily tkinter to select and predict numbers:
+Using the best trained model from this cnn, users can draw digits of their choice into a gui which uses primarily tkinter to select and predict numbers:<br>
 ![](https://raw.githubusercontent.com/MaxHarlan206/MNIST_CNN_and_GUI/main/MNIST.gif)
 
 Right now this project is at 99.4% accuracy and the GUI version works nearer 90% because of the inconsistency of that data and the training set.
